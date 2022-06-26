@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   patch "/items/:id" => "items#update"
   # delete "/items/:id" => "items#destroy"
 
-  post "/delete_item/:id" => "items#destroy"
+  post "/delete-items/:id" => "items#destroy"
 end

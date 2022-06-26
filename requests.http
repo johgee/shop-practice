@@ -1,30 +1,30 @@
 ### items index 
-GET http://localhost:3000/items.json 
+# GET http://localhost:3000/items.json 
 
 ### items create 
-POST http://localhost:3000/items.json 
-Content-Type: application/json 
+# POST http://localhost:3000/items.json 
+# Content-Type: application/json 
 
-{
-  "name": "test name",
-  "price": "10000",
-  "description": "test description",
-  "image_url": "test_image_url"
-}
+# {
+#   "name": "test name",
+#   "price": "10000",
+#   "description": "test description",
+#   "image_url": "test_image_url"
+# }
 
-### items show
-GET http://localhost:3000/items/1.json 
+# ### items show
+# GET http://localhost:3000/items/1.json 
 
-### items update
-PATCH http://localhost:3000items/8.json 
-Content-Type: application/json 
+# ### items update
+# PATCH http://localhost:3000items/8.json 
+# Content-Type: application/json 
 
-{
-  "name": "update name",
-  "price": "1000000",
-  "description": "update description",
-  "image_url": "update image url"
-}
+# {
+#   "name": "update name",
+#   "price": "1000000",
+#   "description": "update description",
+#   "image_url": "update image url"
+# }
 
 ### items destroy 
 # DELETE http://localhost:3000/items/8.json 
